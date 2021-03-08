@@ -4,6 +4,7 @@
 - Big O, Omega, Theta
 - Time and Space Complexity
 - Best, Average, Worst Complexity
+- Sorting Algorithms
 
 ### Big O Notation
 
@@ -57,3 +58,80 @@ Sıralama algoritmaları üzerinden örnek vermek istersek;
  - Büyükten küçüğe sıralı bir listenin küçükten büyüğe sıralanması
 
 En iyi ve en kötü durumlara örnek verilebilir.
+
+### Sorting Algorithms
+
+<table>
+    <thead>
+        <tr>
+            <th>Algorithm</th>
+            <th colspan="3">Time Complexity</th>
+            <th>Space Complexity</th>
+        </tr>
+        <tr>
+            <th></th>
+            <th>Best</th>
+            <th>Average</th>
+            <th>Worst</th>
+            <th>Worst</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Quicksort (Array.Sort and List&lt;T&gt;.Sort and Enumerable.OrderBy&lt;TSource, TKey&gt;)</td>
+            <td> Ω(n.log(n)) </td>
+            <td> Θ(n.log(n)) </td>
+            <td> O(n^2) </td>
+            <td> O(log(n)) </td>
+        </tr>
+        <tr>
+            <td>Mergesort</td>
+            <td>Ω(n.log(n))</td>
+            <td>Θ(n.log(n))</td>
+            <td>O(n.log(n))</td>
+            <td>O(n)</td>
+        </tr>
+        <tr>
+            <td>Heapsort</td>
+            <td>Ω(n.log(n))</td>
+            <td>Θ(n.log(n))</td>
+            <td>O(n.log(n))</td>
+            <td>O(1)</td>
+        </tr>
+        <tr>
+            <td>Bubble Sort</td>
+            <td>Ω(n)</td>
+            <td>Θ(n^2)</td>
+            <td>O(n^2)</td>
+            <td>O(1)</td>
+        </tr>
+        <tr>
+            <td>Insertion Sort</td>
+            <td>Ω(n)</td>
+            <td>Θ(n^2)</td>
+            <td>O(n^2)</td>
+            <td>O(1)</td>
+        </tr>
+        <tr>
+            <td>Selection Sort</td>
+            <td>Ω(n^2)</td>
+            <td>Θ(n^2)</td>
+            <td>O(n^2)</td>
+            <td>O(1)</td>
+        </tr>
+        <tr>
+            <td>Bucket Sort</td>
+            <td>Ω(n+k)</td>
+            <td>Θ(n+k)</td>
+            <td>O(n^2)</td>
+            <td>O(nk)</td>
+        </tr>
+        <tr>
+            <td>Radix Sort</td>
+            <td>Ω(nk)</td>
+            <td>Θ(nk)</td>
+            <td>O(nk)</td>
+            <td>O(n+k)</td>
+        </tr>
+    </tbody>
+</table>
