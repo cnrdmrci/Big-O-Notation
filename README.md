@@ -4,7 +4,6 @@
 - Big O, Omega, Theta
 - Time and Space Complexity
 - Best, Average, Worst Complexity
-- Sorting Algorithms
 
 ### Big O Notation
 
@@ -59,7 +58,7 @@ Sıralama algoritmaları üzerinden örnek vermek istersek;
 
 En iyi ve en kötü durumlara örnek verilebilir.
 
-### Sorting Algorithms
+# Sorting Algorithms
 
 <table>
     <thead>
